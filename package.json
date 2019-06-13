@@ -4,12 +4,13 @@
   "description": "Serving soup 24/7",
   "main": "bot.js",
   "author": "Your Name",
-  "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "winston": "^3.2.1"
-    "engines": {
+  "engines": {
     "node": "5.0.0",
     "npm": "4.6.1"
    },
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+    
   }
 }
