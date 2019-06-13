@@ -15,7 +15,7 @@ autorun: true
 bot.on('ready', function (evt) {
 logger.info('Connected');
 logger.info('Logged in as: ');
-logger.info(bot.username + ' – (' + bot.id + ')');
+logger.info(bot.username + ' â€“ (' + bot.id + ')');
 });
 
 
@@ -28,10 +28,11 @@ var cmd = args[0];
 args = args.splice(1);
 switch(cmd) {
 // !ping
+    
 case 'soup':
 bot.sendMessage({
 to: channelID,
-message: 'Heres your soup.'
+message: 'Heres a bowl of soup'
 });
 break;
 
